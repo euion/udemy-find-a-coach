@@ -1,7 +1,7 @@
 <template>
   <div>Details for coaches</div>
-  <RouterView></RouterView>
-  <RouterLink to="coaches/cl/contact"> Contact </RouterLink>
+  <router-view></router-view>
+  <router-link to="coaches/cl/contact"> Contact </router-link>
 </template>
 
 <script>
