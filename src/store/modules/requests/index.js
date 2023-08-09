@@ -1,3 +1,7 @@
+import mutations from "./mutations";
+import actions from "./actions";
+import getters from "./getters";
+
 export default {
   namespaced: true,
   state() {
@@ -5,4 +9,7 @@ export default {
       requests: [],
     };
   },
+  mutations,
+  actions,
+  getters,
 };
