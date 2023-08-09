@@ -9,6 +9,8 @@ export default {
       areas: data.areas,
     };
 
+    fetch("");
+
     context.commit("registerCoach", coachData);
   },
 };
